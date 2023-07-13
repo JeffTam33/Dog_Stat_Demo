@@ -1,0 +1,63 @@
+.welcome_home_page {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.welcome_home {
+  display: flex;
+  position: relative;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  height: 60vh;
+  width: 60vw;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .15);
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-style: outset;
+  box-shadow: 3px 3px 20px rgba(255, 255, 255, .15);
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome_home_heading {
+  margin: auto;
+}
+
+#welcome_title {
+  margin-top: 15%;
+  text-align: center;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+#welcome_subtext {
+  width: 600px;
+  text-align: center;
+  color: #e8e8e8;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#explore {
+  height: 4vh;
+  width: 8vw;
+  margin-top: 5vh;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .8);
+  color: black;
+  border: none;
+  font-family: 'Mukta', sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 300ms ease;
+  overflow: hidden;
+}
+
+#explore:hover {
+  background-color: white;
+}

@@ -1,0 +1,70 @@
+#dog_details_top {
+  visibility: hidden;
+}
+
+.dog_details_container {
+  height: 70vh;
+  width: 70vw;
+  margin: auto;
+  margin-bottom: 10vh;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .15);
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-style: outset;
+  box-shadow: 3px 3px 20px rgba(255, 255, 255, .15);
+}
+
+.dog_details_info {
+  float: right;
+  margin-top: 1vh;
+  margin-right: 4vw;
+}
+
+
+.dog_details_info_container {
+  list-style: none;
+}
+
+#breed_heading {
+  width: 100%;
+}
+
+.dog_image {
+  height: 45vh;
+  width: 45vh;
+  border-radius: 10px;
+  float: left;
+  margin-top: 9vh;
+  margin-left: 4vw;
+}
+
+.detail_texts {
+  font-size: 24px;
+  margin-left: 5vh;
+}
+
+.move_up {
+  position: absolute;
+  height: 5vh;
+  width: 5vh;
+  margin-top: 30%;
+  margin-left: 50%;
+  background-color: rgba(255, 255, 255, .15);;
+  border: 1px solid rgba(255, 255, 255, .55);;
+  box-shadow: 3px 3px 20px rgba(255, 255, 255, .55);
+  color: white;
+  text-decoration: none;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.move_up:hover {
+  height: 6vh;
+  width: 6vh;
+  font-size: 45px;
+  box-shadow: none;
+  border-style: outset;
+}

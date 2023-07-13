@@ -1,0 +1,22 @@
+#graph_container {
+  height: 70vh;
+  width: 40%;
+  margin-left: 2vw;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .15);
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-style: outset;
+  box-shadow: 3px 3px 20px rgba(255, 255, 255, .15);
+}
+
+#breed_heading {
+  font-size: 50px;
+  line-height: 65px;
+  text-align: center;
+}
+
+#breed_body_paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
